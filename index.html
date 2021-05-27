@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <script type="text/javascript" src="./index.js"></script>
+  </head>
+  <body>
+    <h1>
+      This is a static template, there is no bundler or bundling involved!
+    </h1>
+    <div class="row" id="field_row_1">
+      <div class="form-group col-sm-4">
+        <input
+          type="text"
+          class="form-control valid"
+          required=""
+          name="ProductId_1"
+          value=""
+          id="orderProductId_1"
+          placeholder="Artikelnummer"
+          aria-required="true"
+          novalidate="novalidate"
+          aria-invalid="false"
+        />
+      </div>
+      <div class="form-group col-sm-2">
+        <input
+          type="number"
+          min="1"
+          class="form-control valid"
+          name="Quantity_1"
+          required=""
+          id="orderQuantity_1"
+          placeholder="Antal"
+          aria-required="true"
+          novalidate="novalidate"
+          aria-invalid="false"
+        /><label
+          id="orderQuantity_1-error"
+          class="error"
+          for="orderQuantity_1"
+          style="display: none;"
+        ></label>
+      </div>
+      <div class="form-group col-sm-4">
+        <input
+          type="text"
+          class="form-control valid"
+          id="orderNotes_1"
+          name="Notes_1"
+          placeholder="Extra"
+          novalidate="novalidate"
+          aria-invalid="false"
+        />
+      </div>
+
+      <div id="AddProduct_1">
+        <div class="text-right">
+          <button type="button" onClick="simulateLogin('454546653')">
+            Javascript function
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
